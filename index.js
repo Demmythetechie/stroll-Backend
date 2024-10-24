@@ -1,5 +1,8 @@
-import e from 'express';
-const app = e();
+import express from 'express';
+import cors from 'cors';
+const app = express();
+
+app.use(cors());
 
 // Define a simple route
 app.post('/user', (req, res) => {
