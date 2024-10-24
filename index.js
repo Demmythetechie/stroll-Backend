@@ -3,7 +3,7 @@ import cors from 'cors';
 const app = e();
 
 const corsOptions ={
-    origin:'https://stroll-naheem-okunades-projects.vercel.app/', 
+    origin:'https://stroll-naheem-okunades-projects.vercel.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
