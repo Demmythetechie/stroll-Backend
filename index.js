@@ -22,7 +22,7 @@ app.use(express.json());
 
 // Define the /api/user route
 app.post('/api/user', (req, res) => {
-  res.json({ message: 'CORS is working with ES6!' });
+  res.json({ message: req.body });
 });
 
 // Export the app for Vercel
