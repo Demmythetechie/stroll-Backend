@@ -13,4 +13,4 @@ app.get('/api', (req, res) => {
     res.send('Hello from Express!');
 });
 
-app.listen(4000)
+app.listen(4000);
