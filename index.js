@@ -6,7 +6,7 @@ app.use(cors());
 
 // Define a simple route
 app.post('/api/user', (req, res) => {
-    console.log(req.body);
+    
 });
 
 app.get('/api', (req, res) => {
